@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main>
+    <article>
+        <h1 class="single">{{ .Title }}</h1>
+        <p class="single">{{ $.Param "subtitle.sub" }}</p>
+
+        <!--<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
+           {{ range .Params.tags }}
+               <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+               {{ end }}-->
+
+        <div>
+            {{ .Content }}
+        </div>
+        <div>
+            {{ range .Param "images" }}
+            <div style="width:30%;float:left;margin-left:0.5%;margin-right:0.5%;">
+                <img src="{{ .Path }}" alt="{{ .Name }}" style="width:100%"><br>
+                {{ .Name }}
+            </div>
+            {{ end }}
+            <div style="clear:both;"></div>
+        </div>
+    </article>
+</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

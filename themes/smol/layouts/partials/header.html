@@ -1,0 +1,18 @@
+<header>
+	<div class="right">
+		<nav>
+			{{ $currentPage := . }}
+			{{ with .Site.Menus.main }}
+			{{ range . }}
+			{{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+			{{ $active = or $active (eq .Name $currentPage.Title) }}
+			<a class="{{ if $active }}active{{ end }}" href="{{ .URL | relURL }}" title="{{ .Title }}" alt="{{ .Title }}">{{ .Name }}</a>
+			{{ end }}
+			{{ end }}
+		</nav>
+	</div>
+	<div class="left">
+		<a href="/">BoMa Idea</a>
+	</div>
+	<div class="clear"/>
+</header>

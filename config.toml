@@ -1,0 +1,24 @@
+baseURL = "http://bomaidea.github.io"
+languageCode = "en-us"
+title = "bomaidea.com"
+theme = "smol"
+github = "https://github.com/bomaidea/"
+
+# Parameters
+[params]
+    subtitle = ""
+    dateFmt = "2006.01.02 15:04"
+    description = "description"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "home"
+        name = "home"
+        title = "home"
+        url = "/"
+        weight = 1
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
