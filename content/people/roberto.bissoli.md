@@ -19,7 +19,7 @@ weight: 0
       <img src="../contact.png" style="width: 53px; padding: 5px; border: 1px solid black;border-radius: 5px"></a>
     <a href="mailto:rm.bissoli@gmail.com">
       <img src="../email.png" style="width: 57px; padding: 3px; border: 1px solid black;border-radius: 5px;"></a>
-    <a href="tel:0041795182114">
+    <a href="tel:0041765182114">
       <img src="../phone.png" style="width: 57px; padding: 3px; border: 1px solid black; border-radius: 5px"></a>
   </div>
 </div>
