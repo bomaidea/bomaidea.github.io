@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 15.4.1//EN
+N:Bissoli;Roberto;;;
+FN:Roberto Bissoli
+EMAIL;type=INTERNET;type=HOME;type=pref:rm.bissoli@gmail.com
+TEL;type=CELL;type=VOICE;type=pref:+41 79 518 21 14
+item1.ADR;type=HOME;type=pref:;;21 Loxford House;London;;N5 1GF;United Kingdom
+item1.X-ABADR:gb
+item2.ADR;type=HOME:;;Viale Castagnola 21A;Lugano;;6900;Switzerland
+item2.X-ABADR:ch
+BDAY;X-APPLE-OMIT-YEAR=1604:1604-08-26
+END:VCARD

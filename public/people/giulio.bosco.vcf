@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+N:Bosco;Giulio;;;
+FN:Giulio Bosco
+ORG:BoMa Idea;
+EMAIL;type=INTERNET;type=pref:giulio.bosco@bomaidea.com
+TEL;type=CELL;type=VOICE;type=pref:+41 79 518 22 16
+END:VCARD
