@@ -1,4 +1,4 @@
-# giuliobosco.github.io
+# bomaidea.github.io
 
 My website source code, based on [Hugo](https://gohugo.io) with [smol](https://themes.gohugo.io/smol/) theme.
 
