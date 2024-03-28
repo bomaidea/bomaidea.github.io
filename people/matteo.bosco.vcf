@@ -1,18 +1,9 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//iPhone OS 17.3.1//EN
-N:Monique Bosco-von Allmen;CASSI - WBG Schweiz;;;
-FN:CASSI - WBG Schweiz Monique Bosco-von Allmen
-item1.EMAIL;type=INTERNET;type=pref:mbva@cassi.ch
-item1.X-ABLabel:email
-item2.EMAIL;type=INTERNET:info@wbg-schweiz.ch
-item2.X-ABLabel:email
-TEL;type=CELL;type=VOICE;type=pref:+41764619310
-item3.TEL:+41443602840
-item3.X-ABLabel:Office
-ADR;type=HOME;type=pref:;;Hofackerstrasse 32;Zurich;;8032;Svizzera
-item4.URL;type=pref:www.cassi.ch
-item4.X-ABLabel:website
-item5.URL:www.wbg-schweiz.ch
-item5.X-ABLabel:website
-END:VCARD
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+N:Bosco;Matteo;;;
+FN:Matteo Bosco
+ORG:BoMa Idea - Conser;
+EMAIL;type=INTERNET;type=pref:matteo.bosco@conser.ch
+EMAIL;type=INTERNET:matteo.bosco@bomaidea.com
+TEL;type=CELL;type=VOICE;type=pref:+41 79 173 03 32
